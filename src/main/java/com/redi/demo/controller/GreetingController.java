@@ -34,6 +34,7 @@ public class GreetingController {
     }
     return greetingStatistics;
   }
+
   // endpoint calls the method of statistics
   @GetMapping("statistics")
   public List<GreetingStatistic> statistics() {
